@@ -11,7 +11,7 @@
     <groupId>pe.edu.upc</groupId>
     <artifactId>SEMANA9</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>SEMANA9</name>
     <description>SEMANA9</description>
     <properties>
