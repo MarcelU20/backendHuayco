@@ -26,7 +26,7 @@ public interface IUsuarioRepository extends JpaRepository<Usuario,Integer> {
     public void insRol(@Param("rol") String authority, @Param("user_id") Long user_id);
 
     //Reportes Usuarios que hicieron donaciones
-    @Query("SELECT u.idUsuario, COUNT(d.idDonacion) \n" +
+    @Query("SELECT u.idUsuario, COUNT(d.idDonacion) \n"  +
             "FROM Usuario   u \n" +
             "JOIN Donacion d on u.idUsuario=d.usuario.idUsuario\n" +
             " group by u.idUsuario")
