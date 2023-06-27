@@ -56,3 +56,4 @@ public class Ubicacion {
         this.direccion = direccion;
     }
 }
+
